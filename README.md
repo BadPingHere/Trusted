@@ -1,4 +1,4 @@
-# Untrusted-Scrape
+# Untrusted-Scraper
 
 This was supposed to be my mona lisa, but I realized after creating my scraping that it was simply not a good idea. 
 Maybe another fan of this game will use this, or someone who wants to learn about scraping will analyze my very bad code. However, this is done.
