@@ -3,6 +3,8 @@
 This was supposed to be my mona lisa, but I realized after creating my scraping that it was simply not a good idea. 
 Maybe another fan of this game will use this, or someone who wants to learn about scraping will analyze my very bad code. However, this is done.
 
+This may not work on all opsec logs, as they have changed in the past and Knu has told me may change in the future. However this should be usuable on present logs.
+
 
 # Features
 From a single Opsec link, it will create a folder containing:
