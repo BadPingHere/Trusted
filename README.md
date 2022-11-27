@@ -7,19 +7,22 @@ Maybe another fan of this game will use this, or someone who wants to learn abou
 # Features
 From a single Opsec link, it will create a folder containing:
 
-Username, Profile link, img link, Color, and Consumable in users.csv
+###  users.csv
+Username, Profile link, img link, Color, and Consumable
 
-The entire div for the topology. Half assed way to get it, but it works. Needs jQuery. In topology.csv
+### topology.csv
+The entire div for the topology. Half assed way to get it, but it works. Needs jQuery.
 
-Username and Message for prechat, in prechat.csv
+### prechat.csv
+Username and Message for prechat
 
-Color, Starting role, Finishing role, and Dead/alive in opsummary.csv
+### opsummary.csv
+Color, Starting role, Finishing role, and Dead/alive
 
-And finally, the bane of my existence: messages.csv
-
+### messages.csv
 Identifies what time a message was sent (ie. Prep Night or Day 3), What is a action, what is a event, and whether a message was sent in ASC, dead chat, or alive chat. Also includes indicators for broadcasts, mail, votes. All of that and the html code of the message.
 
- # How To Use
+# How To Use
 
 This is simple enough, but here it is:
 
