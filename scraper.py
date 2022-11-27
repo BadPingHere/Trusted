@@ -7,7 +7,11 @@ import subprocess
 from pathlib import Path
 
 URL = "https://eu01.playuntrusted.com/opsec/6899c8867e168932f2bbf70176b8b0c454743f70/"
-r = requests.get(URL)
+headers = {
+    'User-Agent': 'Ping-Untrusted-Scraper v.1.00',
+    'From': 'sec@badping.live'  
+}
+r = requests.get(URL, headers=headers)
    
 soup = BeautifulSoup(r.content, 'html5lib')
 
