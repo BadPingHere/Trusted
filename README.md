@@ -16,6 +16,7 @@ Username and Message for prechat, in prechat.csv
 Color, Starting role, Finishing role, and Dead/alive in opsummary.csv
 
 And finally, the bane of my existence: messages.csv
+
 Identifies what time a message was sent (ie. Prep Night or Day 3), What is a action, what is a event, and whether a message was sent in ASC, dead chat, or alive chat. Also includes indicators for broadcasts, mail, votes. All of that and the html code of the message.
 
  # How To Use
