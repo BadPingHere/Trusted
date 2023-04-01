@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="GITHUB LINK"><img src="https://cdn.discordapp.com/icons/673234977948827720/ae4a5e6d30634c97db71b8708f6377f2.webp" alt="Markdownify" width="200"></a>
+  <a href="https://github.com/BadPingHere/Trusted"><img src="https://cdn.discordapp.com/icons/673234977948827720/ae4a5e6d30634c97db71b8708f6377f2.webp" alt="Trusted" width="200"></a>
   <br>
   Trusted
   <br>
@@ -61,7 +61,7 @@ $ py scraper.py
 
 ## Download
 
-You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Trusted for Windows, macOS and Linux.
+You can [download](https://github.com/BadPingHere/Trusted/releases/tag/v1.0) the latest installable version of Trusted for Windows, macOS and Linux.
 
 ## Credits
 
