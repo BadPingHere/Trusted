@@ -57,7 +57,7 @@ $ pip install -r requirements.txt
 $ py scraper.py
 ```
 > **Note:**
-> If you intend to use the web ui, go into the file called 'settings.ini', and change the value of 'use_php' from 0 to 1. You should also configure and use any choice of local web hosting, for example, xaamp, using this [tutorial](https://www.geeksforgeeks.org/how-to-run-php-programs).
+> If you intend to use the web ui, go into the file called 'settings.ini', and change the value of 'use_php' from 0 to 1. You should also configure and use any choice of local web hosting, for example, xaamp, using this [tutorial](https://www.geeksforgeeks.org/how-to-run-php-programs). To add, I made this around my default zoom on browser, 90%, so for the true ui experince, please use fullscreen and 90% zoom.
 
 ## Download
 
