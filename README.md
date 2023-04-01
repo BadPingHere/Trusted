@@ -1,34 +1,86 @@
-# Untrusted-Scraper
 
-This was supposed to be my mona lisa, but I realized after creating my scraping that it was simply not a good idea. 
-Maybe another fan of this game will use this, or someone who wants to learn about scraping will analyze my very bad code. However, this is done.
+<h1 align="center">
+  <br>
+  <a href="GITHUB LINK"><img src="https://cdn.discordapp.com/icons/673234977948827720/ae4a5e6d30634c97db71b8708f6377f2.webp" alt="Markdownify" width="200"></a>
+  <br>
+  Trusted
+  <br>
+</h1>
+
+<h4 align="center">A easy-to-use Scraper and Web UI  built on top of <a href="https://www.python.org/" target="_blank">Python</a> and <a href="https://www.php.net/" target="_blank">PHP</a>.</h4>
 
 
-# Features
-From a single Opsec link, it will create a folder containing:
 
-###  users.csv
-Username, Profile link, img link, Color, and Consumable
+<p align="center">
+  <a href="#key-features">Key Features</a> •
+  <a href="#how-to-use">How To Use</a> •
+  <a href="#download">Download</a> •
+  <a href="#credits">Credits</a> •
+  <a href="#license">License</a>
+</p>
 
-### topology.csv
-The entire div for the topology. Half assed way to get it, but it works. Needs jQuery.
+![screenshot](https://cdn.upload.systems/uploads/pWkPA6n9.gif)
 
-### prechat.csv
-Username and Message for prechat
+## Key Features
 
-### opsummary.csv
-Color, Starting role, Finishing role, and Dead/alive
+* Web Scraper
+  - In seconds download an entire log.
+  - Works for most types of logs
+  - Includes an automatic feature, just in case you dont know when a log was created.
+  - Simple, easy to use.
+* Web UI
+  - A 1 to 1 recreation of the Untrusted UI, in a browser.
+  - Admin mode, to see what most cant see.
+  - Easily change days and users.
+* Multi-Browser use
+  - Works on both Chromium based browser like Chrome and Edge, along with Quantum based browsers like Firefox and Tor. 
+* Cross platform
+  - Windows, macOS and Linux ready.
 
-### messages.csv
-Identifies what time a message was sent (ie. Prep Night or Day 3), What is a action, what is a event, and whether a message was sent in ASC, dead chat, or alive chat. Also includes indicators for broadcasts, mail, votes. All of that and the html code of the message.
+## How To Use
 
-# How To Use
+To clone and run this application, you'll need [Git](https://git-scm.com), [Python 3.9](https://www.python.org/) (which comes with [pip](https://pypi.org/project/pip/))  and [PHP](https://www.php.net/) installed on your computer. From your command line:
 
-This is simple enough, but here it is:
+```bash
+# Clone this repository
+$ git clone https://github.com/BadPingHere/Trusted
 
-1. Download and extract the code.
-2. Download all the python packages. I would use ``` pip install -r requirements.txt ```.
-3. Open both the scraper.py and messages2.py file in any text editor, and replace the URL on line 9 and 8 respectively with the opsec you are wishing to scrape.
-4. Run scraper.py. Once it is completed, run messages2.py
+# Go into the repository
+$ cd Trusted
 
-And that should be it!
+# Install dependencies
+$ pip install -r requirements.txt
+
+# Run the app
+$ py scraper.py
+```
+> **Note:**
+> If you intend to use the web ui, go into the file called 'settings.ini', and change the value of 'use_php' from 0 to 1. You should also configure and use any choice of local web hosting, for example, xaamp, using this [tutorial](https://www.geeksforgeeks.org/how-to-run-php-programs).
+
+## Download
+
+You can [download](https://github.com/amitmerchant1990/electron-markdownify/releases/tag/v1.2.0) the latest installable version of Trusted for Windows, macOS and Linux.
+
+## Credits
+
+This software uses the following open source packages:
+
+- [Python](https://www.python.org/)
+- [Node.js](https://www.php.net/)
+- [ConfigParser](https://github.com/jaraco/configparser/)
+- [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
+- [Requests](https://github.com/psf/requests)
+- [Ascii-Magic](https://github.com/LeandroBarone/python-ascii_magic)
+
+This software also uses the following assets from these people:
+- Andrea Alessi
+
+## License
+
+MIT
+
+---
+> [badpinghere.live](https://badpinghere.live) &nbsp;&middot;&nbsp;
+> GitHub [@BadPingHere](https://github.com/BadPingHere)&nbsp;&middot;&nbsp;
+> Discord [Ping#6175](https://discordlookup.com/user/736028271153512489)
+

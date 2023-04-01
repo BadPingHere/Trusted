@@ -1,0 +1,446 @@
+{
+    "Operation Leader":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "0-Day Exploit":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Grant Root Access":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Emergency Extraction":{
+            "cd":"20",
+            "charges":"3"
+        },
+        "Move Hideout":{
+            "cd":"0",
+            "charges":"1"
+        }
+    },
+    "CCTV Specialist":{
+        "Create Hideout":{
+            "cd":"30",
+            "charges":"2"
+        },
+        "Bait Law Enforcement":{
+            "cd":"20",
+            "charges":"3"
+        },
+        "Desperate Measures":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Follow":{
+            "cd":"0",
+            "charges":"2"
+        },
+        "Move Hideout":{
+            "cd":"0",
+            "charges":"1"
+        }
+    },
+    "Enforcer":{
+        "Desperate Measures":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Interrogate":{
+            "cd":"0",
+            "charges":"3"
+        },
+        "Escort":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Disorganized Murder":{
+            "cd":"0",
+            "charges":"999999"
+        }
+    },
+    "Inside Man":{
+        "Plant Keylogger":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Insider Knowledge":{
+            "cd":"20",
+            "charges":"2"
+        },
+        "Desperate Measures":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Follow":{
+            "cd":"0",
+            "charges":"2"
+        },
+        "Retrieve Keylogger":{
+            "cd":"0",
+            "charges":"999999"
+        }
+    },
+    "Analyst":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Log Analysis":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Download Intel":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Midnight Meeting":{
+            "cd":"20",
+            "charges":"999999"
+        },
+        "Ask The Right Question":{
+            "cd":"30",
+            "charges":"2"
+        }
+    },
+    "Network Specialist":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Wire Shark":{
+            "cd":"30",
+            "charges":"3"
+        },
+        "Probe Node":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Cover Your Tracks":{
+            "cd":"0",
+            "charges":"2"
+        },
+        "Review Connection Logs":{
+            "cd":"30",
+            "charges":"2"
+        }
+    },
+    "Social Engineer":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Impersonate":{
+            "cd":"20",
+            "charges":"2"
+        },
+        "Doxx and Stalk":{
+            "cd":"40",
+            "charges":"2"
+        },
+        "Misdirection":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Throw Under the Bus":{
+            "cd":"0",
+            "charges":"2"
+        }
+    },
+    "Blackhat":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Exploit Vulnerability":{
+            "cd":"0",
+            "charges":"2"
+        },
+        "Denial of Service":{
+            "cd":"0",
+            "charges":"2"
+        },
+        "Midnight Meeting":{
+            "cd":"20",
+            "charges":"999999"
+        }
+    },
+    "Improvised Hacker":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Download Intel":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Move Hideout":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Dumpster Dive":{
+            "cd":"0",
+            "charges":"999999"
+        }
+    },
+    "Spearphisher":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Spearphishing Execution":{
+            "cd":"0",
+            "charges":"0"
+        },
+        "Download Intel":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Move Hideout":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Misdirection":{
+            "cd":"0",
+            "charges":"1"
+        }
+    },
+    "Bounty Hunter":{
+        "Unskilled Attack":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Spill the Beans":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Plant Fake Information":{
+            "cd":"20",
+            "charges":"999999"
+        },
+        "Doxx and Stalk":{
+            "cd":"40",
+            "charges":"2"
+        },
+        "Frame":{
+            "cd":"20",
+            "charges":"3"
+        },
+        "Citizen's Arrest":{
+            "cd":"30",
+            "charges":"3"
+        }
+    },
+    "Corrupt Detective":{
+        "Unskilled Attack":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Upload Intel":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Receive Bribe":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Throw Under the Bus":{
+            "cd":"0",
+            "charges":"2"
+        },
+        "Steal Intel":{
+            "cd":"0",
+            "charges":"999999"
+        }
+    },
+    "Double-crosser":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Download Intel":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "NETSEC Background":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Wiretap":{
+            "cd":"30",
+            "charges":"999999"
+        },
+        "Review Connection Logs":{
+            "cd":"30",
+            "charges":"2"
+        }
+    },
+    "Journalist":{
+        "Unskilled Attack":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Impartial Sabotage":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Get Scoop":{
+            "cd":"20",
+            "charges":"999999"
+        },
+        "Write Article":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Expose Operation Leader":{
+            "cd":"0",
+            "charges":"1"
+        }
+    },
+    "Loose Cannon":{
+        "Unskilled Attack":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Move Hideout":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Disorganized Murder":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "AGENT Training":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Fake Escort":{
+            "cd":"0",
+            "charges":"999999"
+        }
+    },
+    "Script Kiddie":{
+        "Create Hideout ":{
+            "cd":"30",
+            "charges":"2"
+        },
+        "Denial of Service":{
+            "cd":"0",
+            "charges":"2"
+        },
+        "Script Kiddie Attack":{
+            "cd":"0",
+            "charges":"3"
+        },
+        "Move Hideout":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Wake-up Call":{
+            "cd":"0",
+            "charges":"1"
+        }
+    },
+    "Panicked Blabbermouth":{
+        "Unskilled Attack":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Create Hideout":{
+            "cd":"30",
+            "charges":"2"
+        },
+        "Denial of Service":{
+            "cd":"0",
+            "charges":"2"
+        },
+        "Move Hideout":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Murder Journalist":{
+            "cd":"0",
+            "charges":"1"
+        }
+    },
+    "Resentful Criminal":{
+        "Unskilled Attack":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Impersonate":{
+            "cd":"20",
+            "charges":"2"
+        },
+        "Looking for an Old Friend":{
+            "cd":"30",
+            "charges":"999999"
+        },
+        "Interrogate":{
+            "cd":"0",
+            "charges":"3"
+        },
+        "Disorganized Murder":{
+            "cd":"0",
+            "charges":"999999"
+        }
+    },
+    "Sociopath":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },  
+        "Unskilled Attack":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Crack Credentials":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Follow":{
+            "cd":"0",
+            "charges":"2"
+        },
+        "Frame":{
+            "cd":"20",
+            "charges":"3"
+        },
+        "Murder":{
+            "cd":"0",
+            "charges":"1"
+        }
+    },
+    "Rival Hacker":{
+        "Hack Target":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Unskilled Attack":{
+            "cd":"0",
+            "charges":"999999"
+        },
+        "Harden Node":{
+            "cd":"30",
+            "charges":"2"
+        },
+        "Jam Network":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Move Hideout":{
+            "cd":"0",
+            "charges":"1"
+        },
+        "Wiretap":{
+            "cd":"30",
+            "charges":"999999"
+        },
+        "Wipe":{
+            "cd":"0",
+            "charges":"1"
+        }
+    }
+}    

@@ -1,0 +1,404 @@
+/* For some reason color=white doesnt work in the div so i gotta use this for player listing  */
+td, th {
+    color: #5f5f5f;
+    position:relative;
+    top:206px;
+    left:42px;
+    border-collapse: collapse;
+    border-top: 17px solid transparent;
+    border-right: 10px solid transparent;
+    border-left: 50px solid transparent;
+    border-spacing: 0;
+    font-family: FLOGREEN;
+    font-size: xx-large;
+  }
+  .factionimg {
+    position:absolute;
+    width:36px;
+    height:36px;
+  }
+  .alivestatusimg {
+    position:absolute;
+    width:36px;
+    height:36px;
+  }
+  .etcshadow {
+    position:absolute;
+    height:44px;
+    top:193px;
+    left:80px;
+    width:322px;
+    font-family: FLOGREEN;
+    font-size: x-large;
+    text-align: center;
+  }
+  .headerimg {
+    position:absolute;
+    top:180px;
+    left:76px;
+  }
+  .playerlistingimg {
+    position:absolute;
+    top:206px;
+    left:42px;
+  }
+  .playerinfoimg {
+    position:absolute;
+    top:57px;
+    left:47px;
+  }
+  .playerheaderimg {
+    position:absolute;
+    top:33px;
+    left:76px;
+  }
+  .personcolor {
+    position:absolute;
+    width:322px;
+    height:44px;
+    top:45px;
+    left:95px;
+    font-family: FLOGREEN;
+    font-size: x-large;
+    text-align: center;
+  }
+  .personrole {
+    position:absolute;
+    width:322px;
+    height:44px;
+    top:95px;
+    left:115px;
+    font-family: FLOGREEN;
+    font-size: 300%;
+    text-align: center;
+  }
+  .playerrolerimg {
+    position:absolute;
+    top:86px;
+    left:56px;
+    width:80px;
+    height:80px;
+  }
+  .capaheaderrimg {
+    position:absolute;
+    top:33px;
+    left:520px;
+  }
+  .capabilities {
+    position:absolute;
+    width:322px;
+    height:44px;
+    top:45px;
+    left:525px;
+    font-family: FLOGREEN;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  @font-face {
+    font-family: FLOGREEN;
+    src: url(/fonts/SYNTHESIA.ttf);
+  }
+  .container {
+    position:relative;
+    width:100%;
+    height:100%;
+    color: white;
+    cursor: url("data:image/cur;base64,AAACAAEAICAAAAAAAAAoEAAAGAAAAAAAKAAAACAAAABAAAAAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgICAAICAgACAgIAAgICAAICAgUAAAASAAAAEQAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAFFm8J4seHCBQAAAAKgAAABEAAAAFAAAAAQAAAAAAAAAA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"), default;
+  }
+  .agentimg {
+    position:absolute;
+    width:36px;
+    height:36px;
+  }
+  .capaboximg {
+    position:absolute;
+    top:60px;
+    left:495px;
+  }
+
+  .topoboximg {
+    position:absolute;
+    top:60px;
+    left:940px;
+  }
+  .topotriangle {
+    position:absolute;
+    top:33px;
+    left:960px;
+  }
+  .topology {
+    position:absolute;
+    width:322px;
+    height:44px;
+    top:45px;
+    left:965px;
+    font-family: FLOGREEN;
+    font-size: x-large;
+    text-align: center;
+  }
+  .mailboximg {
+    position:absolute;
+    top:60px;
+    left:1385px;
+  }
+  .mailtriangle {
+    position:absolute;
+    top:33px;
+    left:1400px;
+  }
+  .mail {
+    position:absolute;
+    width:322px;
+    height:44px;
+    top:45px;
+    left:1415px;
+    font-family: FLOGREEN;
+    font-size: x-large;
+    text-align: center;
+  }
+
+  .chatboximg {
+    position:absolute;
+    top:400px;
+    left:495px;
+  }
+  .chattriangle {
+    position:absolute;
+    top:380px;
+    left:1720px;
+  }
+  .chat {
+    position:absolute;
+    width:322px;
+    height:44px;
+    top:392px;
+    left:1735px;
+    font-family: FLOGREEN;
+    font-size: x-large;
+    text-align: center;
+  }
+  .reportimg {
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:1025px;
+    left:2080px;
+  }
+  .chatbox {
+    top:430px;
+    left:525px;
+    width:1535px;
+    height:625px;
+    position:absolute;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: TerminusTTF, Arial, sans-serif;
+  }
+  @font-face {
+    font-family: 'TerminusTTF';
+    src: url('/fonts/terminusttfwindows-4.47.0-webfont.woff2') format('woff2'),
+         url('/fonts/terminusttfwindows-4.47.0-webfont.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+}
+  .mailholder {
+    position:absolute;
+    top:90px;
+    left:1405px;
+    width:335px;
+    height:240px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    white-space: nowrap;
+    color: #fdfdfd;
+  }
+  .mailholderinner {
+    position:relative;
+    width:335px;
+    height:35px;
+    font-family: FLOGREEN;
+    font-size: 20;
+    margin-top: 15px;
+  }
+  .mailmessage {
+    max-width: 300px;
+    line-height:30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+  }
+  .mailempty {
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    position: absolute;
+    font-size: 50;
+    font-size: 25;
+    margin-top: 80;
+    margin-left: 110;
+  }
+  .mailmessage2 {
+    width: 100%;
+    line-height:30px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: right;
+  }
+  body::-webkit-scrollbar{
+    display: none;  
+  }
+  .avatarimg {
+    position:absolute;
+    width:32px;
+    height:32px;
+    float: left;
+  }
+  .chatholder {
+    position:absolute;
+  }
+  .chatusername {
+    width: 1475px;
+    margin-left: 52px;
+    font-size: 24px;
+    line-height:32px;
+    display:flex;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  .chatmessage {
+    width: auto;
+    font-size: 24px;
+    line-height:32px;
+    word-wrap: break-word;
+    overflow: hidden;
+    word-break: break-all;
+    text-align: left;
+    color:white
+  }
+  .chatusernamedead {
+    width: 1475px;
+    margin-left: 52px;
+    font-size: 24px;
+    line-height:32px;
+    color:#781b92;
+    display:flex;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+  }
+  .prepcapabilities {
+    position:absolute;
+    top:75px;
+    left:10px;
+    font-family: FLOGREEN;
+    font-size: 34;
+    text-align: center;
+  }
+  .capaholder {
+    position:absolute;
+    top:90px;
+    left:505px;
+    width:355px;
+    height:240px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    overflow-x: hidden;
+    white-space: nowrap;
+    color: #fdfdfd;
+  }
+  .capaholderinner {
+    position:relative;
+    width:335px;
+    height:35px;
+    font-family: FLOGREEN;
+    font-size: 30;
+    margin-top: 8px;
+    margin-left: 20;
+    margin-bottom: 25;
+  }
+  .capaskill {
+    max-width: 250px;
+    line-height:50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    display: flex;
+    margin-left: 65;
+  }
+  .capacharges {
+    width: 100%;
+    line-height:50px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    white-space: nowrap;
+    text-align: right;
+  }
+  .capaselectedimg {
+    position:absolute;
+    width:32px;
+    height:32px;
+    float: left;
+  }
+  .timeboximg {
+    position:absolute;
+    top:33px;
+    left:1810px;
+  }
+  .timeboxday {
+    position:absolute;
+    width:190px;
+    height:44px;
+    top:60px;
+    left:1822px;
+    font-family: FLOGREEN;
+    font-size: 29;
+    text-align: left;
+  }
+  .timeboxtimer {
+    position:absolute;
+    width:190px;
+    height:44px;
+    top:95px;
+    left:1815px;
+    font-family: FLOGREEN;
+    font-size: 29;
+    text-align: center;
+  }
+  .powerimg {
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:0px;
+    left:2080px;
+  }
+  .optionsimg {
+    position:absolute;
+    width:50px;
+    height:50px;
+    top:120px;
+    left:2080px;
+  }
+  .soundimg {
+    position:absolute;
+    background: url('/images/muted.png') no-repeat center center;
+    width:45px;
+    height:45px;
+    top:60px;
+    left:2083px;
+    border:none;
+  }
+  .votedot {
+    height: 6px;
+    width: 6px;
+    background-color: #00FE1E;
+    border-radius: 50%;
+  }
+  .votenumber {
+    font-size: 20;
+    color: #00FE1E;
+    position: absolute;
+    font-family: FLOGREEN;
+  }
