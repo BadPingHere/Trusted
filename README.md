@@ -9,6 +9,8 @@
 
 <h4 align="center">A easy-to-use Scraper and Web UI  built on top of <a href="https://www.python.org/" target="_blank">Python</a> and <a href="https://www.php.net/" target="_blank">PHP</a>.</h4>
 
+This may not work on all opsec logs, as they have changed in the past and Knu has told me may change in the future. However this should be usuable on present logs.
+
 
 
 <p align="center">
