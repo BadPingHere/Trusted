@@ -61,7 +61,7 @@ $ py scraper.py
 
 ## Download
 
-You can [download](https://github.com/BadPingHere/Trusted/releases/tag/v1.0) the latest installable version of Trusted for Windows, macOS and Linux.
+You can [download](https://github.com/BadPingHere/Trusted/releases/tag/v1.05) the latest installable version of Trusted for Windows, macOS and Linux.
 
 ## Credits
 
