@@ -486,7 +486,7 @@ function classimages($agentnumber, $style_top)
   $netsec_class = "Operation Leader | CCTV Specialist | Enforcer | Inside Man | Analyst | Network Specialist | Social Engineer | Blackhat | Improvised Hacker | Spearphisher | ";
   $nuet_class = "Bounty Hunter | Corrupt Detective | Double-crosser | Journalist | Loose Cannon | Script Kiddie | Panicked Blabbermouth | Resentful Criminal | Sociopath | Rival Hacker | ";
   if (empty($player[$agentnumber][0])) {
-    echo '<img style="top:'.$style_top.';left:398px;" class="agentimg" src="/images/classes/blank.png">';
+    echo '<img style="top:'.$style_top.';left:398px;" class="agentimg" src="/images/blank.png">';
     return;
   }
   if ($player[$agentnumber][3] == 'Dead' || $player[$agentnumber][3] == 'Arrested' and $player[$agentnumber][2] == 'after') { // User, dead, always gets image
@@ -506,7 +506,7 @@ function classimages($agentnumber, $style_top)
         echo '<img style="top:'.$style_top.';left:398px;" class="agentimg" src="/images/classes/'.$player[$agentnumber][0].'.png">';
       }
       else {
-        echo '<img style="top:'.$style_top.';left:398px;" class="agentimg" src="/images/classes/blank.png">';
+        echo '<img style="top:'.$style_top.';left:398px;" class="agentimg" src="/images/blank.png">';
       }
     }
   }
@@ -550,7 +550,7 @@ function messages() // TODO: doesnt show the stupid fucking messages where it sh
       if ($data1[$helpmenumber][0] <= $daytime && $data1[$helpmenumber][3] == 1 ) { //* ASC Chat
         echo "<div>";
         preg_match_all('/[A-Za-z0-9]+\\.[A-Za-z0-9]+/i' ,$data1[$helpmenumber][9], $matches);
-        echo '<img class="avatarimg" src="/avatars/'.$matches[0][0].'">';
+        echo '<img class="avatarimg" src="/images/avatars/'.$matches[0][0].'">';
         $param = '<tr> <td style="text-align:left;width:25%;">   <img src="../../avatars/'.$matches[0][0].'" style="width:48px;height:48px;"/> '.$matches[0][1].': </td> <td style="text-align:justify;width:75%;color: #ffc91b;;">';
         $message_1 = str_replace($param,'',$data1[$helpmenumber][9]);
         if (str_contains(str_replace('</td></tr>','',$message_1),'[!]')) { //! Needs Fix: Multiple Pings, as in [!][!], are not accounted for
@@ -592,127 +592,127 @@ function messages() // TODO: doesnt show the stupid fucking messages where it sh
         $param = $helpmenumber+1;
         if ($data1[$helpmenumber][10] == 01 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> PREPARATION NIGHT</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 10 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 1</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 11 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 1</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 20 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 2</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 21 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 2</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 30 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 3</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 31 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 3</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 40 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 4</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 41 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 4</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 50 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 5</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 51 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 5</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 60 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 6</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 61 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 6</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 70 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 7</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 71 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 7</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 80 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 8</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 81 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 8</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 90 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 9</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 91 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 9</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 100 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> DAY 10</div>';
           echo "</div>";
         }
         if ($data1[$helpmenumber][10] == 101 && $data1[$param][0] < $daytime && $data1[$param][9] !== $endline) {
           echo "<div>";
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           echo '<div class="chatusername" style="color:#04ca15">>>>> Night 10</div>';
           echo "</div>";
         }
@@ -721,7 +721,7 @@ function messages() // TODO: doesnt show the stupid fucking messages where it sh
         if ($player[$user][2] = "After" && $player[$user][3] = "Dead") {
           echo "<div>";
           preg_match_all('/[A-Za-z0-9]+\\.[A-Za-z0-9]+/i' ,$data1[$helpmenumber][9], $matches);
-          echo '<img class="avatarimg" src="/avatars/'.$matches[0][0].'">';
+          echo '<img class="avatarimg" src="/images/avatars/'.$matches[0][0].'">';
           $param = '<tr> <td style="text-align:left;width:25%;">   <img src="../../avatars/'.$matches[0][0].'" style="width:48px;height:48px;"/> '.$matches[0][1].': </td> <td style="text-align:justify;width:75%;color: #911eb4;;">';
           $message_1 = str_replace($param,'',$data1[$helpmenumber][9]);
           if (str_contains(str_replace('</td></tr>','',$message_1),'[!]')) { //! Needs Fix: Multiple Pings, as in [!][!], are not accounted for
@@ -738,7 +738,7 @@ function messages() // TODO: doesnt show the stupid fucking messages where it sh
       if ($data1[$helpmenumber][0] <= $daytime && $data1[$helpmenumber][5] == 1 ) { //* Alive Chat
         echo "<div>";
         preg_match_all('/[A-Za-z0-9]+\\.[A-Za-z0-9]+/i' ,$data1[$helpmenumber][9], $matches);
-        echo '<img class="avatarimg" src="/avatars/'.$matches[0][0].'">';
+        echo '<img class="avatarimg" src="/images/avatars/'.$matches[0][0].'">';
         $param = '<tr> <td style="text-align:left;width:25%;">   <img src="../../avatars/'.$matches[0][0].'" style="width:48px;height:48px;"/> '.$matches[0][1].': </td> <td style="text-align:justify;width:75%;color: #fff;;">';
         $message_1 = str_replace($param,'',$data1[$helpmenumber][9]);
         if (str_contains(str_replace('</td></tr>','',$message_1),'[!]')) { //! Needs Fix: Multiple Pings, as in [!][!], are not accounted for
@@ -755,7 +755,7 @@ function messages() // TODO: doesnt show the stupid fucking messages where it sh
       if ($data1[$helpmenumber][0] <= $daytime && $data1[$helpmenumber][6] == 1 ) { //* Broadcast 
           echo "<div>";
           preg_match_all('/[A-Za-z0-9]+\\.[A-Za-z0-9]+/i' ,$data1[$helpmenumber][9], $matches);
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/images/blank.png">';
           $message_1 = str_replace('<tr><td colspan="2"><pre><b>ANONYMOUS BROADCAST:</b>','',$data1[$helpmenumber][9]);
           $message = str_replace('</pre></td></tr>','',$message_1);
           echo '<div class="chatusername" style="color:#04ca15">New mail from undisclosed sender:&emsp;<div class="chatmessage" style="color:#04ca15">[BROADCAST]'.$message_1.'</div></div>';
@@ -767,7 +767,7 @@ function messages() // TODO: doesnt show the stupid fucking messages where it sh
           if ($matches2[0][3] == $data2[$user][0])  { // Checks if its being sent TO the current user
             preg_match_all('/[A-Za-z0-9]+\\.[A-Za-z0-9]+/i' ,$data1[$helpmenumber][9], $matches2);
             echo "<div>";
-            echo '<img class="avatarimg" src="/avatars/00000.png">';
+            echo '<img class="avatarimg" src="/images/blank.png">';
             $text = '<tr><td><table><tbody><tr><td style="text-center;margin:auto;">   <img src="../../avatars/'.$matches2[0][0].'" style="width:48px;height:48px;"/><br/> '.$matches2[0][1].' </td><td style="vertical-align:middle;">» » »</td> <td style="text-align:center;margin:auto;">   <img src="../../avatars/'.$matches2[0][2].'" style="width:48px;height:48px;"/><br/> '.$matches2[0][3].' </td></tr></tbody></table></td><td><pre><b>Private message:</b>';
             $broadcast_1 = str_replace($text, '', $data1[$helpmenumber][9]);
             $broadcast_2 = str_replace('</pre></td></tr>', '', $broadcast_1);
@@ -779,7 +779,7 @@ function messages() // TODO: doesnt show the stupid fucking messages where it sh
           if ($matches2[0][1] == $data2[$user][0])  { // Checks if its being sent FROM the current user
             preg_match_all('/[A-Za-z0-9]+\\.[A-Za-z0-9]+/i' ,$data1[$helpmenumber][9], $matches2);
             echo "<div>";
-            echo '<img class="avatarimg" src="/avatars/00000.png">';
+            echo '<img class="avatarimg" src="/images/blank.png">';
             $text = '<tr><td><table><tbody><tr><td style="text-center;margin:auto;">   <img src="../../avatars/'.$matches2[0][0].'" style="width:48px;height:48px;"/><br/> '.$matches2[0][1].' </td><td style="vertical-align:middle;">» » »</td> <td style="text-align:center;margin:auto;">   <img src="../../avatars/'.$matches2[0][2].'" style="width:48px;height:48px;"/><br/> '.$matches2[0][3].' </td></tr></tbody></table></td><td><pre><b>Private message:</b>';
             $broadcast_1 = str_replace($text, '', $data1[$helpmenumber][9]);
             $broadcast_2 = str_replace('</pre></td></tr>', '', $broadcast_1);
@@ -792,7 +792,7 @@ function messages() // TODO: doesnt show the stupid fucking messages where it sh
       if ($data1[$helpmenumber][0] <= $daytime && $data1[$helpmenumber][8] == 1 ) { //* Votes 
           echo "<div>";
           preg_match_all('/[A-Za-z0-9]+\\.[A-Za-z0-9]+/i' ,$data1[$helpmenumber][9], $matches);
-          echo '<img class="avatarimg" src="/avatars/00000.png">';
+          echo '<img class="avatarimg" src="/blank.png">';
           $message_1 = str_replace('<tr><td colspan="2" style="color:#ff0001;text-align:center;font-size:1.0em;">','',$data1[$helpmenumber][9]);
           $message = str_replace('</td></tr>','',$message_1);
           echo '<div class="chatusername" style="color:#04ca15">'.$message.'</div>';

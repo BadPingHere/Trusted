@@ -1,4 +1,5 @@
 from scraperlib import *
+import os
 from ascii_magic import AsciiArt, from_image
 
 # Print ascii art

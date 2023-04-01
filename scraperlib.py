@@ -7,7 +7,7 @@ def old(URL):# This is old code, for old logs
     from pathlib import Path
 
     headers = {
-        'User-Agent': 'Ping-Untrusted-Scraper v.1.50',
+        'User-Agent': 'Ping-Untrusted-Scraper v.1.10',
         'From': 'Ping#6175'  
     }
     r = requests.get(URL, headers=headers)
@@ -177,7 +177,7 @@ def old(URL):# This is old code, for old logs
     
     # Messages 2 part of the csv.
     headers = {
-        'User-Agent': 'Ping-Untrusted-Scraper v.1.50',
+        'User-Agent': 'Ping-Untrusted-Scraper v.1.10',
         'From': 'Ping#6175'  
     }
     r = requests.get(URL, headers=headers)
@@ -1221,7 +1221,7 @@ def new(URL): # This is new code, for new logs
     from pathlib import Path
 
     headers = {
-        'User-Agent': 'Ping-Untrusted-Scraper v.1.50',
+        'User-Agent': 'Ping-Untrusted-Scraper v.1.10',
         'From': 'Ping#6175'  
     }
     r = requests.get(URL, headers=headers)
@@ -1392,7 +1392,7 @@ def new(URL): # This is new code, for new logs
     # Messages 2 part of the csv.
 
     headers = {
-        'User-Agent': 'Ping-Untrusted-Scraper v.1.50',
+        'User-Agent': 'Ping-Untrusted-Scraper v.1.10',
         'From': 'Ping#6175'  
     }
     r = requests.get(URL, headers=headers)
@@ -2432,7 +2432,7 @@ def auto(URL):
     from bs4 import BeautifulSoup
 
     headers = {
-        'User-Agent': 'Ping-Untrusted-Scraper v.1.50',
+        'User-Agent': 'Ping-Untrusted-Scraper v.1.10',
         'From': 'Ping#6175'  
     }
     r = requests.get(URL, headers=headers)

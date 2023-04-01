@@ -7,7 +7,7 @@
   <br>
 </h1>
 
-<h4 align="center">A easy-to-use Scraper and Web UI  built on top of <a href="https://www.python.org/" target="_blank">Python</a> and <a href="https://www.php.net/" target="_blank">PHP</a>.</h4>
+<h4 align="center">A easy-to-use Scraper and Web UI  built on top of <a href="https://www.python.org/" target="_blank">Python</a> and <a href="https://www.php.net/" target="_blank">PHP</a> for the game <a href="https://www.playuntrusted.com/" target="_blank">Untrusted</a>.</h4>
 
 This may not work on all opsec logs, as they have changed in the past and Knu has told me may change in the future. However this should be usuable on present logs.
 
@@ -52,6 +52,7 @@ $ cd Trusted
 
 # Install dependencies
 $ pip install -r requirements.txt
+$ py installassets.py
 
 # Run the app
 $ py scraper.py
@@ -61,7 +62,7 @@ $ py scraper.py
 
 ## Download
 
-You can [download](https://github.com/BadPingHere/Trusted/releases/tag/v1.0) the latest installable version of Trusted for Windows, macOS and Linux.
+You can [download](https://github.com/BadPingHere/Trusted/releases/tag/v1.1) the latest installable version of Trusted for Windows, macOS and Linux.
 
 ## Credits
 
