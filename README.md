@@ -74,6 +74,7 @@ This software uses the following open source packages:
 - [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/)
 - [Requests](https://github.com/psf/requests)
 - [Ascii-Magic](https://github.com/LeandroBarone/python-ascii_magic)
+- [Alive Progress](https://github.com/rsalmei/alive-progress)
 
 This software also uses the following assets from these people:
 - Andrea Alessi

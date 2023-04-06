@@ -87,7 +87,7 @@ def installavatars():
 
 
 print("Installing assets...")
-with alive_bar() as bar:
+with alive_bar(367) as bar: # The 367 is the number of bar hits, check bar hits regularly.
     installclasses()
     installskills()
     installavatars()
