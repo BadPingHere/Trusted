@@ -86,5 +86,5 @@ MIT
 ---
 > [badpinghere.live](https://badpinghere.live) &nbsp;&middot;&nbsp;
 > GitHub [@BadPingHere](https://github.com/BadPingHere)&nbsp;&middot;&nbsp;
-> Discord [Ping#6175](https://discordlookup.com/user/736028271153512489)
+> Discord [Ping#6175](https://discord.com/users/736028271153512489)
 
